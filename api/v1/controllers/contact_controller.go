@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
-	"github.com/navistonks/contacts-app/configs"
-	"github.com/navistonks/contacts-app/models"
-	"github.com/navistonks/contacts-app/responses"
+	"github.com/navistonks/contacts-app/api/v1/configs"
+	"github.com/navistonks/contacts-app/api/v1/models"
+	"github.com/navistonks/contacts-app/api/v1/responses"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
