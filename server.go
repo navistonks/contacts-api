@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/navistonks/contacts-app/configs"
-	"github.com/navistonks/contacts-app/routes"
+	"github.com/navistonks/contacts-app/api/v1/configs"
+	"github.com/navistonks/contacts-app/api/v1/routes"
 )
 
 func main() {
